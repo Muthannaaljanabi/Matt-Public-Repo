@@ -26,7 +26,9 @@
     .\Check-Vulnerabilities-Dashboard.ps1 -IncludeThirdParty -OutputHTML "C:\Reports\VulnDashboard.html"
 
 .NOTES
-    Generates interactive HTML dashboard for IT and Management
+    Author: Muthanna 'Matt' Aljanabi
+    Requires an internet connection to access MSRC
+    Generates an interactive HTML dashboard for IT and Management
 #>
 
 [CmdletBinding()]
